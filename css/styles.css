@@ -1,0 +1,152 @@
+body {
+    font-family: "Roboto", sans-serif;
+    color: #212121;
+    background-color: #ffffff;
+    line-height: 1.5;
+    font-size: 16px;
+    font-weight: -400,500,700; 
+}
+.logo{
+    width: 115px;
+    height: 24px;
+    top: 24px;
+    left: 156px;
+    color:#2E2F42;
+    font-size: 18px;
+    font-weight: 700;
+    text-decoration: none;
+
+}
+.logo span{
+    color:#4D5AE5;
+}
+
+.menu .menu-ul .menu-item{
+    margin: 20px;
+}
+
+.menu .menu-ul .menu-item a{
+    color:#2E2F42;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+}
+
+.menu .menu-ul .menu-item a:hover,
+.menu .menu-ul .menu-item a:focus{
+    color:orange;
+    
+}
+
+.contact a{
+    color:#434455;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+
+
+
+header nav ul li a:hover,
+header nav ul li a:focus {
+    color: #ff6b08;
+}
+
+.hero {
+    text-align: center;
+    background-color:#2E2F42;
+    color: white;
+    
+}
+
+.hero h1 {
+    font-size: 56px;
+    line-height: 60px;
+    font-weight: 700;
+    color:#FFFFFF;
+}
+
+
+button {
+    background-color:#4D5AE9;
+    font-size: 16px;
+    color:white;
+    font-weight: 500;
+    cursor: pointer;
+    
+}
+
+button:hover,
+button:focus {
+    background-color:orange;
+}
+
+.features h2:hover,
+.features h2:focus{
+    color:orange;
+    
+}
+
+.features p{
+    font-size: 16px;
+    font-weight: 400px;
+    line-height: 1.5;
+}
+
+
+
+
+.team h2{
+    text-align: center;
+    font-size: 36px;
+    font-weight: 700px;
+    line-height: 1.5;
+}
+
+.team h3{
+    font-size: 20px;
+    font-weight: 500px;
+    line-height: 1.5;
+}
+
+
+.team h3:hover,
+.team h3:focus {
+    color: #ff6b08;
+}
+
+.portfolio h2{
+    text-align: center;
+    font-size: 36px;
+    font-weight: 700px;
+    line-height: 1.5;
+}
+.portfolio h3:hover,
+.portfolio h3:focus{
+    color:#ff6b08;
+    
+}
+
+
+.footer-logo {
+    
+    font-size: 18px;
+    background-color: #2E2F42;
+    color: white;
+    font-weight: 400px;
+    
+}
+
+.footer-logo .logo{
+    color:white;
+}
+
+
+.footer-logo p{
+    font-size: 16px;
+    background-color: #2E2F42;
+    color:white;
+    font-weight: 400px;
+    line-height: 1.5;
+}
