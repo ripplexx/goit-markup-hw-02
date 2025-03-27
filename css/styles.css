@@ -21,6 +21,10 @@ body {
     color:#4D5AE5;
 }
 
+.menu{
+    color:#404BBF;
+}
+
 .menu .menu-ul .menu-item{
     margin: 20px;
 }
@@ -34,7 +38,7 @@ body {
 
 .menu .menu-ul .menu-item a:hover,
 .menu .menu-ul .menu-item a:focus{
-    color:orange;
+    color:#404BBF;
     
 }
 
@@ -43,6 +47,9 @@ body {
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
+}
+.contact a:hover{
+    color:#404BBF;
 }
 
 
@@ -70,16 +77,21 @@ header nav ul li a:focus {
 
 button {
     background-color:#4D5AE9;
-    font-size: 16px;
+    padding-top: 16px;
+    padding-right: 32px;
+    padding-bottom: 16px;
+    padding-left: 32px;
+    font-size: 16pxpx;
     color:white;
     font-weight: 500;
+    line-height:1.5;
     cursor: pointer;
     
 }
 
 button:hover,
 button:focus {
-    background-color:orange;
+    color:#404BBF;
 }
 
 .features h2:hover,
@@ -95,8 +107,6 @@ button:focus {
 }
 
 
-
-
 .team h2{
     text-align: center;
     font-size: 36px;
@@ -104,17 +114,6 @@ button:focus {
     line-height: 1.5;
 }
 
-.team h3{
-    font-size: 20px;
-    font-weight: 500px;
-    line-height: 1.5;
-}
-
-
-.team h3:hover,
-.team h3:focus {
-    color: #ff6b08;
-}
 
 .portfolio h2{
     text-align: center;
@@ -130,7 +129,6 @@ button:focus {
 
 
 .footer-logo {
-    
     font-size: 18px;
     background-color: #2E2F42;
     color: white;
@@ -146,7 +144,7 @@ button:focus {
 .footer-logo p{
     font-size: 16px;
     background-color: #2E2F42;
-    color:white;
+    color:#F4F4FD;
     font-weight: 400px;
     line-height: 1.5;
 }
