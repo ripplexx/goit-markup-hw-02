@@ -94,11 +94,6 @@ button:focus {
     color:#404BBF;
 }
 
-.features h2:hover,
-.features h2:focus{
-    color:orange;
-    
-}
 
 .features p{
     font-size: 16px;
@@ -128,7 +123,11 @@ button:focus {
 }
 
 
+
+
 .footer-logo {
+
+    height: 200px;
     font-size: 18px;
     background-color: #2E2F42;
     color: white;
